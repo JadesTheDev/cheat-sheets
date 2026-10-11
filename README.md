@@ -1,22 +1,40 @@
 # Programming Cheat Sheets
 
-A compact, runnable reference library for programming syntax and common patterns.
+A compact reference library for programming syntax, logic, and common patterns.
 
-The goal is simple: when you remember *what* you want to do but forget how a particular language spells it, open the matching reference file, search the section, and copy a working example.
+The goal is simple: when you remember *what* you want to do but forget how a particular language spells it, open the matching language reference. When the syntax is familiar but the programming idea itself is fuzzy, open `logic/`.
 
 ## Structure
 
 ```text
 cheat-sheets/
-├── modern/
+├── logic/          # language-independent programming concepts
+├── modern/         # modern language syntax references
 │   ├── c/
 │   ├── csharp/
 │   ├── java/
 │   ├── javascript/
 │   ├── python/
 │   └── sql/
-└── legacy/        # coming later
+└── legacy/         # coming later
 ```
+
+## Logic references
+
+| Concept | Cheat sheet |
+|---|---|
+| Algorithms / pseudocode / flowcharts | [`logic/algorithms-pseudocode-flowcharts.md`](./logic/algorithms-pseudocode-flowcharts.md) |
+| Input → Process → Output | [`logic/input-process-output.md`](./logic/input-process-output.md) |
+| Variables / data types | [`logic/variables-and-data-types.md`](./logic/variables-and-data-types.md) |
+| Conditionals / Boolean logic | [`logic/conditionals-and-boolean-logic.md`](./logic/conditionals-and-boolean-logic.md) |
+| Loops | [`logic/loops.md`](./logic/loops.md) |
+| Functions / scope / modules | [`logic/functions-and-scope.md`](./logic/functions-and-scope.md) |
+| Collections / sequences | [`logic/collections-and-sequences.md`](./logic/collections-and-sequences.md) |
+| Files / exceptions | [`logic/files-and-exceptions.md`](./logic/files-and-exceptions.md) |
+| Objects / inheritance | [`logic/objects-and-inheritance.md`](./logic/objects-and-inheritance.md) |
+| Recursion | [`logic/recursion.md`](./logic/recursion.md) |
+
+See [`logic/README.md`](./logic/README.md) for the logic-folder index.
 
 ## Modern language references
 
@@ -29,29 +47,18 @@ cheat-sheets/
 | Python | [`modern/python/python_reference.py`](./modern/python/python_reference.py) |
 | SQL | [`modern/sql/sql_reference.sql`](./modern/sql/sql_reference.sql) |
 
-## What each reference covers
+## How the pieces fit together
 
-The files use roughly the same order where the language allows it:
+```text
+logic/   = WHAT the programming concept means
+modern/  = HOW a modern language writes it
+legacy/  = HOW an older language writes it
+```
 
-1. Program structure
-2. Output and input
-3. Variables and data types
-4. Operators
-5. Conditionals
-6. Loops
-7. Functions / methods
-8. Collections
-9. Strings
-10. Classes / objects
-11. Error handling
-12. File I/O
-13. Imports / modules
-14. Language-specific notes
-
-These are intentionally practical references rather than full tutorials. The examples are small enough to scan, edit, and run.
+The language files are intentionally practical rather than full tutorials. Examples are kept small enough to scan, edit, and run.
 
 ## Planned next
 
-- Shared programming-concepts reference
 - Side-by-side syntax comparison
 - Legacy language section (COBOL, FORTRAN, Perl, Lisp)
+- Expand individual references as course material adds useful patterns
