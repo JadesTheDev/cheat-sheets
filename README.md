@@ -16,11 +16,11 @@ cheat-sheets/
 │   ├── javascript/
 │   ├── python/
 │   └── sql/
-└── legacy/         # older languages with surviving real-world ecosystems
-    ├── cobol/
+└── legacy/         # older languages shown across real standards/releases
+    ├── cobol/      # 1968 → 2023 standard-era references
     ├── fortran/    # coming next
     ├── perl/       # planned
-    └── lisp/       # planned; ANSI Common Lisp
+    └── lisp/       # planned; historically accurate dialect/standard names
 ```
 
 ## Logic references
@@ -53,27 +53,29 @@ See [`logic/README.md`](./logic/README.md) for the logic-folder index.
 
 ## Legacy language references
 
-| Language | Reference file |
+| Language | Reference |
 |---|---|
-| COBOL | [`legacy/cobol/cobol_reference.cob`](./legacy/cobol/cobol_reference.cob) |
-| Fortran | Coming next |
-| Perl | Planned |
-| ANSI Common Lisp | Planned |
+| COBOL | [`legacy/cobol/README.md`](./legacy/cobol/README.md) — ANSI COBOL 1968 through ISO/IEC 1989:2023 |
+| Fortran | Coming next — FORTRAN 66 through Fortran 2023 |
+| Perl | Planned — selected official release milestones through Perl 5.44 |
+| Lisp | Planned — historically accurate Lisp/Common Lisp dialect and standard names |
 
-See [`legacy/README.md`](./legacy/README.md) for how legacy references handle standards, dialects, and implementation differences.
+See [`legacy/README.md`](./legacy/README.md) for the legacy versioning policy.
 
 ## How the pieces fit together
 
 ```text
 logic/   = WHAT the programming concept means
 modern/  = HOW a modern language writes it
-legacy/  = HOW an older language writes it
+legacy/  = HOW older languages changed across standards and releases
 ```
 
 The language files are intentionally practical rather than full tutorials. Examples are kept small enough to scan, edit, and run.
 
 ## Planned next
 
-- Finish the legacy set: Fortran, Perl, ANSI Common Lisp
+- Build the Fortran standard-era set
+- Build selected Perl release-era references
+- Build the Lisp/Common Lisp lineage without inventing fake version numbers
 - Side-by-side syntax comparison
 - Expand individual references as course material adds useful patterns
