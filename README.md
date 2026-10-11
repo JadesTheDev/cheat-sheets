@@ -16,7 +16,11 @@ cheat-sheets/
 │   ├── javascript/
 │   ├── python/
 │   └── sql/
-└── legacy/         # coming later
+└── legacy/         # older languages with surviving real-world ecosystems
+    ├── cobol/
+    ├── fortran/    # coming next
+    ├── perl/       # planned
+    └── lisp/       # planned; ANSI Common Lisp
 ```
 
 ## Logic references
@@ -47,6 +51,17 @@ See [`logic/README.md`](./logic/README.md) for the logic-folder index.
 | Python | [`modern/python/python_reference.py`](./modern/python/python_reference.py) |
 | SQL | [`modern/sql/sql_reference.sql`](./modern/sql/sql_reference.sql) |
 
+## Legacy language references
+
+| Language | Reference file |
+|---|---|
+| COBOL | [`legacy/cobol/cobol_reference.cob`](./legacy/cobol/cobol_reference.cob) |
+| Fortran | Coming next |
+| Perl | Planned |
+| ANSI Common Lisp | Planned |
+
+See [`legacy/README.md`](./legacy/README.md) for how legacy references handle standards, dialects, and implementation differences.
+
 ## How the pieces fit together
 
 ```text
@@ -59,6 +74,6 @@ The language files are intentionally practical rather than full tutorials. Examp
 
 ## Planned next
 
+- Finish the legacy set: Fortran, Perl, ANSI Common Lisp
 - Side-by-side syntax comparison
-- Legacy language section (COBOL, FORTRAN, Perl, Lisp)
 - Expand individual references as course material adds useful patterns
