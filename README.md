@@ -19,7 +19,7 @@ cheat-sheets/
 └── legacy/         # older languages shown across real standards/releases
     ├── cobol/      # 1968 → 2023 standard-era references
     ├── fortran/    # FORTRAN 66 → Fortran 2023
-    ├── perl/       # planned
+    ├── perl/       # Perl 1.000 → current Perl 5.44.x
     └── lisp/       # planned; historically accurate dialect/standard names
 ```
 
@@ -57,7 +57,7 @@ See [`logic/README.md`](./logic/README.md) for the logic-folder index.
 |---|---|
 | COBOL | [`legacy/cobol/README.md`](./legacy/cobol/README.md) — ANSI COBOL 1968 through ISO/IEC 1989:2023 |
 | Fortran | [`legacy/fortran/README.md`](./legacy/fortran/README.md) — FORTRAN 66 through Fortran 2023 |
-| Perl | Planned — selected official release milestones through Perl 5.44 |
+| Perl | [`legacy/perl/README.md`](./legacy/perl/README.md) — Perl 1.000 through current Perl 5.44.x |
 | Lisp | Planned — historically accurate Lisp/Common Lisp dialect and standard names |
 
 See [`legacy/README.md`](./legacy/README.md) for the legacy versioning policy.
@@ -74,7 +74,6 @@ The language files are intentionally practical rather than full tutorials. Examp
 
 ## Planned next
 
-- Build selected Perl release-era references
 - Build the Lisp/Common Lisp lineage without inventing fake version numbers
 - Side-by-side syntax comparison
 - Expand individual references as course material adds useful patterns
